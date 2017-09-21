@@ -1,0 +1,24 @@
+
+table {
+caption-side: top; /* bottom left rigth */ /* umiejscowienie tytu³u tabeli */
+table-layout: auto; /* fixed */  /* tabela albo siê dostosowuje albo jest sta³a jak nadamy jej wymiary */
+width: 100%;
+border-collapse: collapse; /* pojedyncze obramowanie, separate kómórki od³¹czone od siebie */
+border-spacing: 10mm 5mm; /* odstêpy miêdzy ramkami , najpierw szerokoœæ potem wysokoœæ*/
+border: 2px solid blue;
+
+}
+
+td.format {
+width: 20mm;
+height: 20px;
+border: 1mm dotted red;}
+
+tr.powiekszony {
+height:40mm;
+
+}
+
+
+div {
+overflow: auto;}
